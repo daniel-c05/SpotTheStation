@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="register_options">
+        <item >@string/sign_up</item>
+        <item >@string/extend_or_delete_alerts</item>
+        <item >@string/received_code</item>
+        <item >@string/example_alert</item>
+    </string-array>
+    <string name="i_want_to">I want to</string>
+    <string name="hint_select_country">Select Country</string>
+    <string name="hint_state_region">State or Region</string>
+    <string name="hint_email">Enter your email address</string>
+    <string name="request_code">Request Code</string>
+    <string name="hint_confirm_email">Please confirm your email</string>
+    <string name="hint_confirm_code">Registration Code</string>
+    <string name="extend_or_delete_alerts">Extend or Delete Alerts</string>
+    <string name="extend_alerts"><b>Extend</b> my current alerts</string>
+    <string name="delete_alerts"><b>Delete</b> my current alerts</string>
+    <string name="example_alert">Example Alert Message</string>
+    <string name="received_code">Received a Code?</string>
+    <string name="review_information">Review Information</string>
+    <string name="info_submitted">Information Submitted</string>
+    <string name="received_code_subinfo">Enter your code to register, extend, or delete alert messages.</string>
+    <string name="alerts_active">Alerts Active</string>
+    <string name="register_about">
+        Did you know you can see the International Space Station from your house? As the third brightest object in the sky, after the sun and moon, the space station is easy to see if you know where and when to look for it.
+    </string>
+    <string name="register_congratulations">
+        Congratulations! You will now receive Space Station alerts.\nThanks for completing sign up. Your alerts will now be active for 1 year (12 months) from registration date.
+    </string>
+    <string name="post_register_notice">
+        In the future you may modify your alerts from the homepage.\nThis includes extending or deleting your alerts. 	</string>
+    <string name="thanks_for_registering">
+        Thanks for signing up.\n\nA message has been sent to your account: 	</string>
+    <string name="registration_confirm_note">
+        PLEASE NOTE a registration code has been sent in this message and it is valid for one hour. Your account will NOT be active until this code has been registered with this website. You may enter the code below now or up to one hour from now on the Spot The Station homepage.	</string>
+    <string name="location">Location</string>
+    <string name="title_activity_register">Sign up for Alerts</string>
+    <string name="sighting_alerts_by_time">Sighting Alerts by Time</string>
+    <string name="register_events_both">I want BOTH morning and evening sighting events!</string>
+    <string name="register_events_morning">MORNING sightings events would be great!</string>
+    <string name="register_events_evening">EVENING sightings events only please.</string>
+    <string name="sms_alerts_short">Want to receive SMS alerts?</string>
+    <string name="register_check_one">I verify this email account or phone number is mine and I have the right to register for this service.</string>
+    <string name="example_header">What does all this sighting information mean?</string>
+    <string name="example_title">
+        <![CDATA[
+	<font color="#CC0000"><strong>“</strong>SpotTheStation! <strong>Time: </strong>Wed Apr 25 7:45 PM, <strong>Visible:</strong> 4 min,  <strong>Max Height:</strong> 66 degrees, <strong>Appears:</strong> WSW, <strong>Disappears</strong> NE.<strong>”</strong></font>
+	]]>
+    </string>
+    <string name="example_info">
+<![CDATA[	
+	<p><strong><font color="#0099CC">Time</font></strong> is when the sighting opportunity will begin in your local time zone. All sightings will occur within a few hours before or after sunrise or sunset. This is the optimum viewing period as the sun reflects off the space station and contrasts against the darker sky.</p>
+	<p><strong><font color="#0099CC">Duration</font></strong> is the maximum time period the space station is visible before crossing back below the horizon.</p>
+                              <p><strong><font color="#0099CC">Max Height</font></strong> is measured in degrees (also known as elevation). It represents the height of the space station from the horizon in the night sky. The horizon is at zero degrees, and directly overhead is ninety degrees. If you hold your fist at arm’s length and place your fist resting on the horizon, the top will be about 10 degrees.</p>
+                          <p ><strong><font color="#0099CC">Appears</font></strong> is the location in the sky where the station will be visible first. This value, like maximum height, also is measured in degrees from the horizon. The letters represent compass directions -- N is north, WNW is west by northwest, and so on.</p>
+                  <p ><strong><font color="#0099CC">Disappears</font></strong> represents where in the night sky the International Space Station will leave your field of view.</p>
+	]]>
+    </string>
+
+    <string name="register_check_two">I understand the National Aeronautics and Space Administration (NASA) is not responsible for any fees that may apply to site users by their wireless carrier or internet provider.</string>
+    <string name="sms_alerts_long">
+<![CDATA[
+                                    <div class="well yellowWell">
+                                           <h2>Would you like to receive SMS (text message) alerts?</h2>
+                                           <p>NASA’s Spot the Station system is built around email, but most common carriers support an email-to-SMS service.  If you’d prefer to receive text messages, please use the following format:<strong>*</strong></p>
+                                           
+                                                                                      
+                                										<h3>Common US Carriers</h3>
+                                           <div class="row">
+                                                <div class="offset1 span3">
+                                                          <p><strong>AT&amp;T</strong> <br />1234567890@txt.att.net<br />
+                                                            <strong>Metro PCS </strong><br />1234567890@mymetropcs.com<br />
+                                                          <strong>T-Mobile</strong> <br />1234567890@tmomail.net<br />
+                                                          <strong>U.S. Cellular </strong><br />1234567890@email.uscc.net</p>
+                                                     </div>
+                                                     <div class="span3">
+                                                       <p><strong>Cricket Wireless</strong> <br />1234567890@sms.mycricket.com<br />
+                                                       <strong>Sprint</strong> <br />1234567890@messaging.sprintpcs.com<br />
+                                                         <strong>TracFone</strong> <br />1234567890@mmst5.tracfone.com<strong><br />
+                                                         Verizon</strong> <br />1234567890@vtext.com</p>
+                                                     </div>
+                                            </div>
+                                            <div class="row">
+                                                    <div class="offset1 span6">
+                                                          <p>Please check your carrier&rsquo;s website for their email-to-SMS support.</p>
+									    			</div>
+                                            </div>
+                                           
+                                            <div class="alert alert-error">
+                                                    <p><strong>*Please note, that NASA is NOT responsible for any fees that may apply to those accounts that register for this service.</strong></p>
+                                            </div>
+                                  	</div>
+                                  	</div>
+                                  	]]>
+    </string>
+    
+    <string name="dummy_news_title">
+	Alpha Magnetic Spectrometer-2 
+    </string>
+    
+    <string name="dummy_news_subtitle">
+	First Findings from Station\'s State-of-the-Art Particle Physics Detector 
+    </string>
+    
+    <string name="dummy_news_content">
+        <![CDATA[
+<p >Until the launch of the Alpha Magnetic Spectrometer (AMS) experiment in 2011, scientists had compiled a mere anthill of information about the kinds of charged particles, or cosmic rays, that shoot around the universe. Two short years later, they have amassed an Everest-sized mountain of such information, and are beginning to publish their findings, which could change our concept of the cosmos.</p>
+<p >Using the power and data transmission capabilities of the International Space Station, AMS is circling Earth and sifting through matter, antimatter and other particles that are yet to be confirmed, 365 days a year. Hundreds of scientists from 16 countries are analyzing the mountain of data, hoping to determine what the universe is made of and how it began, looking for clues on the origin of dark matter and the existence of antimatter and strangelets. And if that\’s not enough, there\'s also the information it could provide on pulsars, blazers and gamma ray bursters, and any number of phenomena that have yet to be named.</p>
+]]>
+    </string>
+
+</resources>

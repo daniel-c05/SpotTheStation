@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/register_title_two"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:text="@string/i_want_to"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <RadioGroup
+        android:id="@+id/extend_delete_alert_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/register_title_two" >
+
+        <RadioButton
+            android:id="@+id/delete_alerts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:minHeight="32dp"
+            android:padding="8dp"
+            android:text="@string/delete_alerts"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/extend_alerts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:minHeight="32dp"
+            android:padding="8dp"
+            android:text="@string/extend_alerts"
+            android:textSize="14sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/TextView1"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/extend_delete_alert_group"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:text="@string/email_address"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <AutoCompleteTextView
+        android:id="@+id/extend_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView1"
+        android:hint="@string/hint_email"
+        android:imeActionLabel="@string/next"
+        android:imeOptions="actionUnspecified"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/extend_confirm_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/extend_email"
+        android:hint="@string/hint_confirm_email"
+        android:imeActionId="@+id/login"
+        android:imeActionLabel="@string/done"
+        android:imeOptions="actionUnspecified"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+ <include
+     layout="@layout/two_button_bar" 
+     />
+
+</RelativeLayout>

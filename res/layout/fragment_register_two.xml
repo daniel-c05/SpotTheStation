@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/register_title_two"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:text="@string/email_address"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <AutoCompleteTextView
+        android:id="@+id/register_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_email"
+        android:imeActionLabel="@string/next"
+        android:imeOptions="actionUnspecified"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/register_confirm_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_confirm_email"
+        android:imeActionId="@+id/login"
+        android:imeActionLabel="@string/done"
+        android:imeOptions="actionUnspecified"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+    <TextView
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:text="@string/sighting_alerts_by_time"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <RadioGroup
+        android:id="@+id/register_alert_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/register_alert_both"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:minHeight="32dp"
+            android:padding="8dp"
+            android:text="@string/register_events_both"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/register_alert_evening"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:minHeight="32dp"
+            android:padding="8dp"
+            android:text="@string/register_events_evening"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/register_alert_morning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:minHeight="32dp"
+            android:padding="8dp"
+            android:text="@string/register_events_morning"
+            android:textSize="14sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/register_sms_alerts"
+        style="@style/register_selector_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sms_alerts_short" />
+
+</LinearLayout>

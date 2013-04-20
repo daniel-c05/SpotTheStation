@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/news_list_item_bg"
+    android:padding="4dp"
+    >
+
+    <ImageView
+        android:id="@+id/news_image"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="2dp"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:contentDescription="@string/news_image"
+        android:scaleType="fitXY"
+        />
+
+        <TextView
+            android:id="@+id/news_title"
+            android:paddingLeft="4dp"
+            android:layout_toRightOf="@+id/news_image"
+            android:layout_alignParentTop="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:fontFamily="sans-serif-condensed"
+			android:textColor="?android:attr/textColorPrimary"
+            android:textSize="14sp" />
+        
+        <TextView
+            android:id="@+id/news_content"
+            android:layout_below="@+id/news_title"
+            android:layout_toRightOf="@+id/news_image"
+            android:paddingLeft="4dp"
+            android:paddingBottom="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:fontFamily="sans-serif-light"
+			android:textColor="?android:attr/textColorSecondary"
+            android:textSize="12sp" />
+
+</RelativeLayout>

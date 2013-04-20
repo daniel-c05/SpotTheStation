@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="prefs_summary_open_source">
+        <![CDATA[
+        <b><font color="#000000">Spot The Station makes use of and thanks the following open source libraries:</font></b><br><br> 
+        
+        <b>ViewPagerIndicator:</b><br><br>
+        
+        Copyright 2012 Jake Wharton<br>
+		Copyright 2011 Patrik Åkerfeldt<br>
+		Copyright 2011 Francisco Figueiredo Jr.<br>
+
+		Licensed under the Apache License, Version 2.0 (the "License");<br>
+		you may not use this file except in compliance with the License.<br>
+		You may obtain a copy of the License at<br><br>
+
+   			http://www.apache.org/licenses/LICENSE-2.0<br><br>
+
+		Unless required by applicable law or agreed to in writing, software<br>
+		distributed under the License is distributed on an "AS IS" BASIS,<br>
+		WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.<br>
+		See the License for the specific language governing permissions and<br>
+		limitations under the License.     
+		
+		<b>PhotoView:</b><br><br>
+        
+        Copyright 2011, 2012 Chris Banes<br>
+
+		Licensed under the Apache License, Version 2.0 (the "License");<br>
+		you may not use this file except in compliance with the License.<br>
+		You may obtain a copy of the License at<br><br>
+
+   			http://www.apache.org/licenses/LICENSE-2.0<br><br>
+
+		Unless required by applicable law or agreed to in writing, software<br>
+		distributed under the License is distributed on an "AS IS" BASIS,<br>
+		WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.<br>
+		See the License for the specific language governing permissions and<br>
+		limitations under the License.        
+        ]]>
+        </string>   
+</resources>

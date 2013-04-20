@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Spot The Station</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="register_for_alerts">Register for Alerts</string>
+    <string name="explore_sightings">Explore Sightings</string>
+    <string name="complete">Complete</string>
+    <string name="hint_city">City</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="agree">I Agree</string>
+    <string name="email">Email</string>
+    <string name="email_address">Email Address</string>
+    <string name="view_gallery">View Gallery</string>
+    <string name="review">Review</string>
+    <string name="pref_key_first_boot">first_boot</string>
+    <string name="title_activity_register">Register for Alerts</string>
+    <string name="title_activity_sign_up">Sign up for Alerts</string>
+    <string name="title_activity_map">Explore Sightings</string>
+    <string name="news_image">Article Image</string>
+    <string name="empty_news_list">No News to display</string>
+    <string name="show_me">Show Me</string>
+    <string name="back">Back</string>
+    <string name="the_crew">The Crew</string>
+    <string name="visualization">Example Visualization</string>
+    <string name="latest_news">Latest News</string>
+    <string name="experiments">Experiments</string>
+    <string name="personal_data">PERSONAL DATA:</string>
+    <string name="education">EDUCATION:</string>
+    <string name="experience">EXPERIENCE:</string>
+    <string name="spaceflight_training">SPACEFLIGHT TRAINING:</string>
+    <string name="spaceflight_experience">SPACEFLIGHT EXPERIENCE:</string>
+    <string name="awards">AWARDS:</string>
+    <string name="hobbies">HOBBIES:</string>
+
+    <string-array name="array_about_iss">
+        <item>@string/latest_news</item>
+        <item>@string/experiments</item>
+        <item>@string/the_crew</item>
+    </string-array>
+
+    <string name="dummy_main_crew_member_info">
+<![CDATA[	    
+Soyuz TMA-M commander<br>
+ISS flight engineer<br>
+3rd class test-cosmonaut<br>
+Deputy Chief of the Roscosmos Cosmonaut Office<br>
+Colonel of the Russian Air Force, retired<br>
+495th cosmonaut of the world<br>
+103rd cosmonaut of the Russian Federation
+	    ]]>
+    </string>
+    <string name="dummy_personal_data">Born August 9, 1971, in Schelkovo, Moscow Region. Married to Romanenko (Danilovskaya) Yulia Leonidovna. They have two children.</string>
+    <string name="dummy_education">After graduation from Star City high school in 1986 Romanenko entered the Leningrad Suvorov military school from which he graduated in 1988. In 1988 entered the Chernigov Air Force Pilot School from which he graduated in 1992 as pilot-engineer.</string>
+    <string name="dummy_experience">After graduation from the pilot school served as a laboratory engineer and copilot in the Air Force. He flew L-39 and Tu-134 aircraft. Romanenko has logged over 800 hours of flight time. He is a Class 3 Air Force pilot. He also has qualifications of a paraborne instructor and diving officer.</string>
+    <string name="dummy_spacelight_training">
+<![CDATA[	   
+<ul>
+<li>From December 1997 to November 1999 Romanenko completed cosmonaut basic training course.</li>
+<li>In November, 1999, he was qualified as a test cosmonaut after successful passing of all the exams.</li>
+<li>In November 1999 - July 2003 he completed advanced space flight training.</li>
+<li>From April 2002 till January 2003 Romanenko trained as a backup ISS 9 crewmember as a Soyuz commander and ISS flight engineer for a crew launch on the shuttle.</li>
+<li>From February 2003 till February 2005 trained as a backup ISS 11 crewmember as an ISS engineer.</li>
+<li>From September 2005 till January 2006 trained as a test-cosmonaut for ISS flights.</li>
+<li>From February 2006 till April 2007 trained as an ISS 15 backup crewmember as a Soyuz TMA commander and ISS commander.</li>
+<li>From August 2008 till May 2009 trained as a prime ISS 20/21 crewmember as a Soyuz  TMA commander and ISS flight engineer.</li>
+<li>From January 2011 till July 2012 trained as a backup ISS 32/33 crewmember  as a Soyuz TMA-M commander and ISS flight engineer.</li>
+<li>Since July 2012 Romanenko has been training as a prime ISS 34/35 crewmember as a Soyuz TMA-M commander and ISS flight engineer.</li>
+</ul>
+	    ]]>
+    </string>
+    <string name="dummy_spacelight_experience">Completed 1st spaceflight from May 27 to December 1, 2009 as the Soyuz TMA-15 commander and ISS flight engineer. Logged 187 days in space.</string>
+    <string name="dummy_awards">Hero of the Russian Federation (2010), Space Exploration medal, Air Force medals, 50 years of space exploration honorary pin; Belgian Ordre de la Couronne (Commandeur).</string>
+    <string name="dummy_hobbies">Underwater hunting, tourism, yachting, downhill skiing, music.</string>
+    <string name="dummy_current_expedition">
+<![CDATA[
+	    <strong>Expedition 35</strong><br>
+	    March 2013 - Sept. 2013
+	    ]]>
+    </string>
+    <string name="dummy_future_expedition">
+<![CDATA[
+		<strong>Expedition 36</strong><br>   
+	    May 2013 - Nov. 2013
+	    ]]>
+    </string>
+    <string name="dummy_past_expedition">
+<![CDATA[
+	    <strong>Expedition 34:</strong><br>
+	    November 2012 - March 2013
+	   	]]>
+    </string>
+
+    <string-array name="dummy_crew_current_members">
+        <item>Roman Romanenko</item>
+        <item>Chris Hadfield (Commander)</item>
+        <item>Tom Marshburn</item>
+        <item>Alexander Misurkin</item>
+        <item>Pavel Vinogradov</item>
+        <item>Chris Cassidy</item>
+    </string-array>
+    <string-array name="dummy_crew_future_members">
+        <item>Alexander Misurkin</item>
+        <item>Pavel Vinogradov</item>
+        <item>Chris Cassidy</item>
+        <item>Fyodor Yurchikhin</item>
+        <item>Karen Nyberg</item>
+        <item>Luca Parmitano</item>
+    </string-array>
+    <string-array name="dummy_crew_past_members">
+        <item>Oleg Novitskiy</item>
+        <item>Kevin Ford (Commander)</item>
+        <item>Evgeny Tarelkin</item>
+    </string-array>
+
+    <string name="title_activity_social_home">Social</string>
+
+</resources>

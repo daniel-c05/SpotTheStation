@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/register_title_two"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:text="@string/received_code"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/register_title_two"
+        android:padding="16dp"
+        android:text="@string/received_code_subinfo"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView1"
+        android:padding="16dp"
+        android:text="@string/registration_confirm_note"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/confirm_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView2"
+        android:hint="@string/hint_email"
+        android:imeActionLabel="@string/next"
+        android:imeOptions="actionUnspecified"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:singleLine="true" />     
+
+    <EditText
+        android:id="@+id/confirm_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/confirm_email"
+        android:hint="@string/hint_confirm_code"
+        android:imeActionLabel="@string/done"
+        android:imeOptions="actionDone"
+        android:maxLines="1"
+        android:singleLine="true" />
+    
+     <include
+     layout="@layout/two_button_bar" 
+     />
+
+</RelativeLayout>
